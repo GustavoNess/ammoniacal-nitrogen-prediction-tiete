@@ -138,7 +138,7 @@ matplotlib (and seaborn if you use it in notebooks)
 (optional) tensorflow/keras if you run NN experiments
 
 
-##▶️ How to run (typical workflow)
+## ▶️ How to run (typical workflow)
 
 Put CETESB/InfoÁguas export in data/raw/
 
