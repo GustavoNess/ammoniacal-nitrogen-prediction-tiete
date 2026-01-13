@@ -125,27 +125,21 @@ All data-driven steps are **fitted only on the training split within each tempor
 ├─ requirements.txt
 └─ README.md
 
-##Recommended packages
+## RECOMMENDED PACKAGES
 
-numpy, pandas
+- numpy, pandas
+- scikit-learn
+- xgboost
+- matplotlib (and seaborn if you use it in notebooks)
+- (optional) tensorflow/keras if you run NN experiments
 
-scikit-learn
+## ▶️ HOW TO RUN (TYPICAL WORKFLOW)
 
-xgboost
-
-matplotlib (and seaborn if you use it in notebooks)
-
-(optional) tensorflow/keras if you run NN experiments
-
-
-##  ▶️ How to run (typical workflow)
- 
-
-Put CETESB/InfoÁguas export in data/raw/
-
-Run preprocessing:
-
+1. Put CETESB/InfoÁguas export in `data/raw/`
+2. Run preprocessing:
+```bash
 python -m src.preprocessing
+
 
 
 Train + temporal CV:
@@ -166,26 +160,24 @@ Generate figures/tables:
 python -m src.evaluate
 
 
-## ✅ QA/QC use-case (optional but recommended)
+✅ QA/QC USE-CASE (OPTIONAL BUT RECOMMENDED)
 
 This framework can be used as an additional data-quality checkpoint:
 
-flag samples with large residuals (observed − predicted),
+flag samples with large residuals (observed − predicted)
 
-prioritize retesting / audits (unit/typing errors, contamination, preservation issues, analytical interferences),
+prioritize retesting / audits (unit/typing errors, contamination, preservation issues, analytical interferences)
 
-track residual drift over time as a sentinel of process bias.
+track residual drift over time as a sentinel of process bias
 
-
-##📝 Citation
+📝 CITATION
 
 If you use this repository, please cite the related manuscript:
 
 Pacheco, G. N.; Silva, J. C.; Andrade, R. C.; Silva Filho, P. A.
 Machine learning for ammoniacal nitrogen prediction to support water-quality monitoring in the Tietê River: Random Forest, XGBoost, and Multilayer Perceptron.
 
-
-#👤 Authors
+👤 AUTHORS
 
 Gustavo Nunes Pacheco (main author)
 
@@ -195,16 +187,13 @@ Rosane Cristina de Andrade (text review + figures)
 
 Pedro Alves da Silva Filho (text review)
 
-##📄 License
+📄 LICENSE
 
 Choose a license (e.g., MIT, Apache-2.0) and add a LICENSE file.
 If data redistribution is restricted, keep raw data out of the repo and document how to obtain it.
 
-
-
-##📬 Contact
+📬 CONTACT
 
 Gustavo Nunes Pacheco
 Email: gustavoo.np@hotmail.com
-
 
