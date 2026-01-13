@@ -103,11 +103,10 @@ All data-driven steps are **fitted only on the training split within each tempor
 
 ---
 
-## 🗂️ Suggested repository structure
+🗂️ Suggested repository structure
 
-> Adjust names to match your current files.
+Adjust names to match your current files.
 
-```text
 .
 ├─ data/
 │  ├─ raw/            # CETESB exports (do not commit if large)
@@ -124,7 +123,6 @@ All data-driven steps are **fitted only on the training split within each tempor
 │  └─ tables/
 ├─ requirements.txt
 └─ README.md
-
 
 RECOMMENDED PACKAGES
 
@@ -147,7 +145,6 @@ Run preprocessing:
 python -m src.preprocessing
 
 
-
 Train + temporal CV:
 
 python -m src.train --model rf
@@ -164,7 +161,6 @@ python -m src.backtesting --window extended
 Generate figures/tables:
 
 python -m src.evaluate
-
 
 ✅ QA/QC USE-CASE (OPTIONAL BUT RECOMMENDED)
 
