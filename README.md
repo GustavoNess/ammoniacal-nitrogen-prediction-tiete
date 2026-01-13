@@ -103,6 +103,7 @@ All data-driven steps are **fitted only on the training split within each tempor
 
 ---
 
+```md
 ## 🗂️ Suggested repository structure
 
 > Adjust names to match your current files.
