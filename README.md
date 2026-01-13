@@ -185,7 +185,7 @@ Pacheco, G. N.; Silva, J. C.; Andrade, R. C.; Silva Filho, P. A.
 Machine learning for ammoniacal nitrogen prediction to support water-quality monitoring in the Tietê River: Random Forest, XGBoost, and Multilayer Perceptron.
 
 
-##👤 Authors
+#👤 Authors
 
 Gustavo Nunes Pacheco (main author)
 
