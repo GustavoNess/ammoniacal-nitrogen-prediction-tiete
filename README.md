@@ -103,7 +103,6 @@ All data-driven steps are **fitted only on the training split within each tempor
 
 ---
 
-```md
 ## 🗂️ Suggested repository structure
 
 > Adjust names to match your current files.
@@ -126,19 +125,25 @@ All data-driven steps are **fitted only on the training split within each tempor
 ├─ requirements.txt
 └─ README.md
 
-## RECOMMENDED PACKAGES
 
-- numpy, pandas
-- scikit-learn
-- xgboost
-- matplotlib (and seaborn if you use it in notebooks)
-- (optional) tensorflow/keras if you run NN experiments
+RECOMMENDED PACKAGES
 
-## ▶️ HOW TO RUN (TYPICAL WORKFLOW)
+numpy, pandas
 
-1. Put CETESB/InfoÁguas export in `data/raw/`
-2. Run preprocessing:
-```bash
+scikit-learn
+
+xgboost
+
+matplotlib (and seaborn if you use it in notebooks)
+
+(optional) tensorflow/keras if you run NN experiments
+
+▶️ HOW TO RUN (TYPICAL WORKFLOW)
+
+Put CETESB/InfoÁguas export in data/raw/
+
+Run preprocessing:
+
 python -m src.preprocessing
 
 
@@ -197,4 +202,3 @@ If data redistribution is restricted, keep raw data out of the repo and document
 
 Gustavo Nunes Pacheco
 Email: gustavoo.np@hotmail.com
-
