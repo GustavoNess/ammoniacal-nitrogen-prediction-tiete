@@ -125,7 +125,7 @@ All data-driven steps are **fitted only on the training split within each tempor
 ├─ requirements.txt
 └─ README.md
 
-Recommended packages
+##Recommended packages
 
 numpy, pandas
 
@@ -138,7 +138,7 @@ matplotlib (and seaborn if you use it in notebooks)
 (optional) tensorflow/keras if you run NN experiments
 
 
-▶️ How to run (typical workflow)
+##▶️ How to run (typical workflow)
 
 Put CETESB/InfoÁguas export in data/raw/
 
@@ -165,7 +165,7 @@ Generate figures/tables:
 python -m src.evaluate
 
 
-✅ QA/QC use-case (optional but recommended)
+## ✅ QA/QC use-case (optional but recommended)
 
 This framework can be used as an additional data-quality checkpoint:
 
@@ -176,7 +176,7 @@ prioritize retesting / audits (unit/typing errors, contamination, preservation i
 track residual drift over time as a sentinel of process bias.
 
 
-📝 Citation
+##📝 Citation
 
 If you use this repository, please cite the related manuscript:
 
@@ -184,7 +184,7 @@ Pacheco, G. N.; Silva, J. C.; Andrade, R. C.; Silva Filho, P. A.
 Machine learning for ammoniacal nitrogen prediction to support water-quality monitoring in the Tietê River: Random Forest, XGBoost, and Multilayer Perceptron.
 
 
-👤 Authors
+##👤 Authors
 
 Gustavo Nunes Pacheco (main author)
 
@@ -194,14 +194,14 @@ Rosane Cristina de Andrade (text review + figures)
 
 Pedro Alves da Silva Filho (text review)
 
-📄 License
+##📄 License
 
 Choose a license (e.g., MIT, Apache-2.0) and add a LICENSE file.
 If data redistribution is restricted, keep raw data out of the repo and document how to obtain it.
 
-📬 Contact
 
-📬 Contact
+
+##📬 Contact
 
 Gustavo Nunes Pacheco
 Email: gustavoo.np@hotmail.com
